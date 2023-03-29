@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="App">
       <Provider store={store}>
-        <BrowserRouter>
-        {/* <BrowserRouter basename ="/Flash-ECommerce"> */}
+        {/* <BrowserRouter> */}
+        <BrowserRouter basename ="/Flash">
           <Header />
           <Sidebar />
           <Routes>
